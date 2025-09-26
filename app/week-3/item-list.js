@@ -63,7 +63,6 @@ export default function ItemList() {
       category: "household",
     },
   ];
-
   return (
     <ul className="space-y-5">
       {items.map((item, index) => (

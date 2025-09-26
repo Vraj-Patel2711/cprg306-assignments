@@ -5,7 +5,6 @@ export default function Item({ name, quantity, category }) {
         <p className="font-semibold text-gray-800">{name}</p>
         <p className="text-sm text-gray-500">Category: {category}</p>
       </div>
-
       <button className="px-3 py-1 rounded-full bg-blue-500 text-white text-sm font-medium">
         Quantity: {quantity}
       </button>
